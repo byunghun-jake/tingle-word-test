@@ -1,0 +1,61 @@
+{
+  "answerList": [
+    {
+      "id": 1,
+      "testId": 1,
+      "testerName": "장민재",
+      "created_at": "2021-06-27",
+      "answers": [
+        {
+          "en_word": "bunny",
+          "ko_word": "토끼",
+          "type": 1,
+          "answer": "토끼",
+          "id": 1
+        },
+        {
+          "en_word": "apple",
+          "ko_word": "사과",
+          "type": 2,
+          "answer": "applee",
+          "id": 2
+        },
+        {
+          "en_word": "banana",
+          "ko_word": "바나나",
+          "type": 1,
+          "answer": "바나나",
+          "id": 3
+        },
+        {
+          "en_word": "glasses",
+          "ko_word": "안경",
+          "type": 2,
+          "answer": "glasses",
+          "id": 4
+        },
+        {
+          "en_word": "computer",
+          "ko_word": "컴퓨터",
+          "type": 2,
+          "answer": "computer",
+          "id": 5
+        },
+        {
+          "en_word": "coffee",
+          "ko_word": "커피",
+          "type": 1,
+          "answer": "커피",
+          "id": 6
+        },
+        {
+          "en_word": "pink",
+          "ko_word": "분홍색",
+          "type": 1,
+          "answer": "분홍",
+          "id": 7
+        }
+      ]
+    }
+  ]
+}

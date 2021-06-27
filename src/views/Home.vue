@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <section class="container py-6">
+    <h1 class="text-2xl font-bold mb-4">메인 페이지</h1>
+    <div class="grid gap-4">
+      <TestItem v-for="test in testlist" :key="test.id" :test="test" />
+    </div>
+  </section>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import TestItem from "@/components/TestItem"
+import {testlist} from "@/dummyData/testlist"
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    TestItem,
+  },
+  data() {
+    return {
+      testlist,
+    }
   }
 }
 </script>
