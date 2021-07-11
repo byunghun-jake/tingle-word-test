@@ -10,6 +10,17 @@ module.exports = {
       },
       center: true,
     },
+    fontFamily: {
+      sans: ["Nanum Barun Gothic", "sans-serif"],
+      serif: [
+        "ui-serif",
+        "Georgia",
+        "Cambria",
+        '"Times New Roman"',
+        "Times",
+        "serif",
+      ],
+    },
     extend: {},
   },
   variants: {

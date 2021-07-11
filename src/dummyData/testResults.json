@@ -1,0 +1,134 @@
+{
+  "testResults": [
+    {
+      "id": 1,
+      "testId": 1,
+      "testerName": "장민재",
+      "created_at": "2021-06-27",
+      "score": 80,
+      "results": [
+        {
+          "en_word": "bunny",
+          "ko_word": "토끼",
+          "type": 1,
+          "answer": "토끼",
+          "id": 1,
+          "isCorrect": true
+        },
+        {
+          "en_word": "apple",
+          "ko_word": "사과",
+          "type": 2,
+          "answer": "applee",
+          "id": 2,
+          "isCorrect": false
+        },
+        {
+          "en_word": "banana",
+          "ko_word": "바나나",
+          "type": 1,
+          "answer": "바나나",
+          "id": 3,
+          "isCorrect": true
+        },
+        {
+          "en_word": "glasses",
+          "ko_word": "안경",
+          "type": 2,
+          "answer": "glasses",
+          "id": 4,
+          "isCorrect": true
+        },
+        {
+          "en_word": "computer",
+          "ko_word": "컴퓨터",
+          "type": 2,
+          "answer": "computer",
+          "id": 5,
+          "isCorrect": true
+        },
+        {
+          "en_word": "coffee",
+          "ko_word": "커피",
+          "type": 1,
+          "answer": "커피",
+          "id": 6,
+          "isCorrect": true
+        },
+        {
+          "en_word": "pink",
+          "ko_word": "분홍색",
+          "type": 1,
+          "answer": "분홍",
+          "id": 7,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "testId": 1,
+      "testerName": "장민재",
+      "created_at": "2021-06-27",
+      "score": 100,
+      "results": [
+        {
+          "en_word": "bunny",
+          "ko_word": "토끼",
+          "type": 1,
+          "answer": "토끼",
+          "id": 1,
+          "isCorrect": true
+        },
+        {
+          "en_word": "apple",
+          "ko_word": "사과",
+          "type": 2,
+          "answer": "applee",
+          "id": 2,
+          "isCorrect": false
+        },
+        {
+          "en_word": "banana",
+          "ko_word": "바나나",
+          "type": 1,
+          "answer": "바나나",
+          "id": 3,
+          "isCorrect": true
+        },
+        {
+          "en_word": "glasses",
+          "ko_word": "안경",
+          "type": 2,
+          "answer": "glasses",
+          "id": 4,
+          "isCorrect": true
+        },
+        {
+          "en_word": "computer",
+          "ko_word": "컴퓨터",
+          "type": 2,
+          "answer": "computer",
+          "id": 5,
+          "isCorrect": true
+        },
+        {
+          "en_word": "coffee",
+          "ko_word": "커피",
+          "type": 1,
+          "answer": "커피",
+          "id": 6,
+          "isCorrect": true
+        },
+        {
+          "en_word": "pink",
+          "ko_word": "분홍색",
+          "type": 1,
+          "answer": "분홍",
+          "id": 7,
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
