@@ -1,25 +1,35 @@
 <template>
   <section class="container py-6">
-    <h1 class="text-2xl font-bold mb-4">메인 페이지</h1>
+    <SearchForm @onSearch="handleSearch" />
     <div class="grid gap-4">
-      <TestItem v-for="test in testlist" :key="test.id" :test="test" />
+      <TestListItem v-for="test in testlist" :key="test.id" :test="test" />
     </div>
   </section>
 </template>
 
 <script>
-import TestItem from "@/components/TestItem"
-import {testlist} from "@/dummyData/testlist"
+import TestListItem from "@/components/TestListItem"
+import SearchForm from "@/components/SearchForm"
+import { testlist } from "@/dummyData/testlist"
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    TestItem,
+    TestListItem,
+    SearchForm,
   },
   data() {
     return {
       testlist,
     }
-  }
+  },
+  methods: {
+    handleSearch(inputValue) {
+      this.testlist = testlist.filter((test) => {
+        return test.user.includes(inputValue)
+      })
+      console.log(inputValue)
+    },
+  },
 }
 </script>
